@@ -1,0 +1,37 @@
+canvas {
+    box-shadow: black 20px 10px 50px;
+}
+
+button {
+  font-family: 'Tektur', cursive;
+  font-size: 1.6em;
+}
+h1 {
+margin: 0px;
+margin-bottom: 10px;
+font-size: 4.9em;
+font-family: 'Tektur', cursive;
+color: white;
+}
+body {
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 0px;
+margin: 0px;
+height: 100vh;
+background: linear-gradient(
+  180deg,
+  rgb(0, 0, 0) 95%,
+  rgba(0, 0, 0, 0) 100%
+);
+}
+
+#welcomePage img {
+  max-width: 40%;
+  height: auto;
+}
+
+#pauseMenu h2{
+  font-family: 'Tektur', cursive;
+}
